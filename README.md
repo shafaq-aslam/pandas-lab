@@ -79,6 +79,19 @@ pandas-lab/
 
 ---
 
+### 🔹 **DataFrame**
+| Notebook | Description |
+|-----------|--------------|
+| **DataFrame_Creation** | Creating DataFrames from dictionaries, lists, and CSV files |
+| **DataFrame_Functions** | Applying essential DataFrame functions for data transformation |
+| **DataFrame_Attributes_And_Methods** | Understanding DataFrame properties, info, and key methods |
+| **Filtering_a_DataFrame** | Selecting data using conditional filtering and logical operations |
+| **Adding_New_Cols** | Creating and modifying columns dynamically |
+| **Selecting_rows_&_columns_from_a_dataFrame** | Accessing rows and columns using loc, iloc, and label-based indexing |
+| **batsman_runs_ipl.csv / diabetes.csv / ipl-matches.csv / movies.csv** | Real-world datasets for hands-on practice and exploration |
+
+---
+
 ## 📚 Learning Resources
 
 - 🔹 [Pandas Official Docs](https://pandas.pydata.org/docs/)

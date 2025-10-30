@@ -47,6 +47,17 @@ pandas-lab/
     │   ├── Plotting_graphs_on_series-checkpoint.ipynb
     │   ├── bollywood-checkpoint.csv
     │   └── subs-checkpoint.csv
+    ├── DataFrame/
+    │   ├── DataFrame_Creation.ipynb
+    │   ├── DataFrame_Functions.ipynb
+    │   ├── DataFrame_Attributes_And_Methods.ipynb
+    │   ├── Filtering_a_DataFrame.ipynb
+    │   ├── Adding_New_Cols.ipynb
+    │   ├── Selecting_rows_&_columns_from_a_dataFrame.ipynb
+    │   ├── batsman_runs_ipl.csv
+    │   ├── diabetes.csv
+    │   ├── ipl-matches.csv
+    │   └── movies.csv
 </pre>
 
 ---
@@ -65,6 +76,19 @@ pandas-lab/
 | **Series_Using_read_CSV** | Creating Series directly from CSV files |
 | **Plotting_graphs_on_series** | Visualizing Series data using Pandas’ built-in plotting |
 | **bollywood.csv / subs.csv** | Datasets used for hands-on analysis and visualization |
+
+---
+
+### 🔹 **DataFrame**
+| Notebook | Description |
+|-----------|--------------|
+| **DataFrame_Creation** | Creating DataFrames from dictionaries, lists, and CSV files |
+| **DataFrame_Functions** | Applying essential DataFrame functions for data transformation |
+| **DataFrame_Attributes_And_Methods** | Understanding DataFrame properties, info, and key methods |
+| **Filtering_a_DataFrame** | Selecting data using conditional filtering and logical operations |
+| **Adding_New_Cols** | Creating and modifying columns dynamically |
+| **Selecting_rows_&_columns_from_a_dataFrame** | Accessing rows and columns using loc, iloc, and label-based indexing |
+| **batsman_runs_ipl.csv / diabetes.csv / ipl-matches.csv / movies.csv** | Real-world datasets for hands-on practice and exploration |
 
 ---
 

@@ -30,7 +30,7 @@ Each notebook represents a step in mastering **data manipulation**, **aggregatio
 
 ## 📂 Folder Structure
 
-> 💡 Each notebook inside the `Pandas` folder explores a unique concept of Pandas — from fundamental data structures to real-world data analysis.
+> 💡 Each folder inside the `Pandas` directory explores a specific concept of Pandas — from Series and DataFrames to advanced topics like GroupBy, Merging, and Time Handling.
 
 <pre>
 pandas-lab/
@@ -47,6 +47,7 @@ pandas-lab/
     │   ├── Plotting_graphs_on_series-checkpoint.ipynb
     │   ├── bollywood-checkpoint.csv
     │   └── subs-checkpoint.csv
+    │
     ├── DataFrame/
     │   ├── DataFrame_Creation.ipynb
     │   ├── DataFrame_Functions.ipynb
@@ -58,6 +59,48 @@ pandas-lab/
     │   ├── diabetes.csv
     │   ├── ipl-matches.csv
     │   └── movies.csv
+    │
+    ├── GroupBy/
+    │   ├── GroupBy_object.ipynb
+    │   ├── GroupBy_attributes_and_methods.ipynb
+    │   ├── GroupBy_on_multiple_cols.ipynb
+    │   ├── GroupBy_aggregate_method.ipynb
+    │   ├── Looping_and_built-in_functions.ipynb
+    │   ├── deliveries.csv
+    │   └── imdb-top-100.csv
+    │
+    ├── Merging_Joining_and_Concatenating/
+    │   ├── Joining_and_concatenating.ipynb
+    │   ├── Merging.ipynb
+    │   ├── Practice_questions.ipynb
+    │   ├── courses.csv
+    │   ├── deliveries.csv
+    │   ├── matches.csv
+    │   ├── students.csv
+    │   ├── reg-month1.csv
+    │   └── reg-month2.csv
+    │
+    ├── MultiIndexing_and_Melt/
+    │   ├── MultiIndex_Series.ipynb
+    │   ├── MultiIndex_DataFrame.ipynb
+    │   ├── Long_Vs_Wide_Data.ipynb
+    │   ├── time_series_covid19_confirmed_global.csv
+    │   ├── time_series_covid19_death_global.csv
+    │   └── wideLong.png
+    │
+    ├── Pivot_Table/
+    │   ├── Pivot_table.ipynb
+    │   └── expense_data.csv
+    │
+    ├── Vectorized_String_Operations/
+    │   ├── Pandas_string.ipynb
+    │   └── titanic.csv
+    │
+    └── Date_and_Time_in_Pandas/
+        ├── date_and_time_in_pandas.ipynb
+        ├── DatetimeIndex_object.ipynb
+        ├── functions_and_accessors.ipynb
+        └── expense_data.csv
 </pre>
 
 ---
@@ -89,6 +132,64 @@ pandas-lab/
 | **Adding_New_Cols** | Creating and modifying columns dynamically |
 | **Selecting_rows_&_columns_from_a_dataFrame** | Accessing rows and columns using loc, iloc, and label-based indexing |
 | **batsman_runs_ipl.csv / diabetes.csv / ipl-matches.csv / movies.csv** | Real-world datasets for hands-on practice and exploration |
+
+---
+
+### 🔹 **GroupBy**
+| Notebook | Description |
+|-----------|--------------|
+| **GroupBy_object** | Creating and exploring GroupBy objects |
+| **GroupBy_attributes_and_methods** | Understanding key attributes and aggregation methods |
+| **GroupBy_on_multiple_cols** | Applying grouping on multiple columns |
+| **GroupBy_aggregate_method** | Using the `.agg()` method for complex aggregations |
+| **Looping_and_built-in_functions** | Iterating over groups and applying built-in functions |
+| **deliveries.csv / imdb-top-100.csv** | Practice datasets for aggregation and grouping |
+
+---
+
+### 🔹 **Merging, Joining, and Concatenating**
+| Notebook | Description |
+|-----------|--------------|
+| **Joining_and_concatenating** | Combining data vertically and horizontally |
+| **Merging** | Merging datasets using keys and relationships |
+| **Practice_questions** | Exercises to apply merging and joining concepts |
+| **courses.csv / deliveries.csv / matches.csv / students.csv / reg-month1.csv / reg-month2.csv** | Practice datasets for combining and joining operations |
+
+---
+
+### 🔹 **MultiIndexing and Melt**
+| Notebook | Description |
+|-----------|--------------|
+| **MultiIndex_Series** | Creating and managing hierarchical Series |
+| **MultiIndex_DataFrame** | Working with multi-level DataFrames |
+| **Long_Vs_Wide_Data** | Converting data between long and wide formats using `melt()` and `pivot()` |
+| **time_series_covid19_confirmed_global.csv / time_series_covid19_death_global.csv / wideLong.png** | Real datasets for reshaping and reformatting exercises |
+
+---
+
+### 🔹 **Pivot Table**
+| Notebook | Description |
+|-----------|--------------|
+| **Pivot_table** | Creating pivot tables for summarizing and analyzing data |
+| **expense_data.csv** | Dataset for pivot table practice and visualization |
+
+---
+
+### 🔹 **Vectorized String Operations**
+| Notebook | Description |
+|-----------|--------------|
+| **Pandas_string** | Working with vectorized string operations for data cleaning |
+| **titanic.csv** | Dataset for applying string manipulation techniques |
+
+---
+
+### 🔹 **Date and Time in Pandas**
+| Notebook | Description |
+|-----------|--------------|
+| **date_and_time_in_pandas** | Introduction to date and time operations in Pandas |
+| **DatetimeIndex_object** | Understanding and working with `DatetimeIndex` |
+| **functions_and_accessors** | Using datetime-specific functions and accessors |
+| **expense_data.csv** | Dataset for datetime manipulation and analysis |
 
 ---
 

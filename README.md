@@ -22,7 +22,7 @@
 
 ## 🧩 Mission Statement
 
-This repository serves as **my personal Pandas Lab** 🧪 — where I explore, clean, and transform data using the Pandas library.  
+This repository serves as **my personal Pandas Lab** 🧪 where I explore, clean, and transform data using the Pandas library.  
 
 Each notebook represents a step in mastering **data manipulation**, **aggregation**, **indexing**, and **visualization**, laying a strong foundation for advanced analytics and machine learning.
 
